@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="180"
+   height="140"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="shapes.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs24" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="877"
+     id="namedview22"
+     showgrid="false"
+     showborder="false"
+     inkscape:snap-nodes="false"
+     inkscape:zoom="3.4667603"
+     inkscape:cx="128.1179"
+     inkscape:cy="55.590212"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g18" />
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g18">
+    <rect
+       fill="#11d3ea"
+       style="mix-blend-mode:multiply;stroke-width:0.587224"
+       transform="rotate(120)"
+       x="-15.202873"
+       y="-40.680462"
+       width="5.9873414"
+       height="52.782093"
+       rx="2.9936707"
+       id="rect12" />
+    <rect
+       style="fill:#f2f2f2;stroke-width:1.1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:fill markers stroke;stroke:#f68024;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:square"
+       id="rect851"
+       width="142.75432"
+       height="162.90787"
+       x="30.902113"
+       y="-25.863722" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Blackadder ITC';-inkscape-font-specification:'Blackadder ITC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008080;fill-opacity:1;stroke:none"
+       x="36.46167"
+       y="99.205345"
+       id="text941"
+       transform="rotate(-40.312571)"><tspan
+         sodipodi:role="line"
+         id="tspan939"
+         x="36.46167"
+         y="99.205345">Ecole Virtuelle Africaine</tspan></text>
+    <path
+       fill="#ffce00"
+       style="mix-blend-mode:multiply;fill:#fda220;fill-opacity:1;stroke-width:0.861561"
+       d="M 30.75814,6.7625692 102.54609,0.13176687 173.67135,6.7151304 173.24415,43.872545 102.54609,52.18281 30.75814,44.880223 Z"
+       id="path8"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33322px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.333328"
+       x="42.088875"
+       y="14.713107"
+       id="text859"
+       transform="matrix(0.93672739,1.6606881e-7,-0.01053644,1.0675464,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan857"
+         x="42.088875"
+         y="14.713107"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33322px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.333328">Vous avez des difilcultées à resourdre un </tspan><tspan
+         sodipodi:role="line"
+         x="42.088875"
+         y="21.379631"
+         id="tspan861"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33322px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.333328">problème mathématique? </tspan><tspan
+         sodipodi:role="line"
+         x="42.088875"
+         y="28.046158"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33322px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.333328"
+         id="tspan869">Alors plus de soucis à vous faire suivez juste</tspan><tspan
+         sodipodi:role="line"
+         x="42.088875"
+         y="34.712681"
+         id="tspan863"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33322px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.333328">les étape si après et tout ira pour le mieux!!!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.89555px;line-height:1.85;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.861944"
+       x="59.67997"
+       y="56.166954"
+       id="text891"
+       transform="scale(0.86194353,1.1601688)"><tspan
+         sodipodi:role="line"
+         id="tspan889"
+         x="59.67997"
+         y="56.166954"
+         style="stroke-width:0.861944">Lire et relire le Problème</tspan><tspan
+         sodipodi:role="line"
+         x="59.67997"
+         y="68.923721"
+         id="tspan901"
+         style="stroke-width:0.861944">Choix des inconnues</tspan><tspan
+         sodipodi:role="line"
+         x="59.67997"
+         y="81.680489"
+         id="tspan895"
+         style="stroke-width:0.861944">Mise en équation ou système d'équations</tspan><tspan
+         sodipodi:role="line"
+         x="59.67997"
+         y="94.437256"
+         id="tspan897"
+         style="stroke-width:0.861944">Résolution de l'équation ou du Systeme d'équations</tspan></text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:1.85;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#008080;fill-opacity:1;stroke:none"
+     x="40.307102"
+     y="65.163147"
+     id="text909"><tspan
+       sodipodi:role="line"
+       id="tspan907"
+       x="40.307102"
+       y="65.163147">1-</tspan><tspan
+       sodipodi:role="line"
+       x="40.307102"
+       y="79.96315"
+       id="tspan911">2-</tspan><tspan
+       sodipodi:role="line"
+       x="40.307102"
+       y="94.763145"
+       id="tspan913">3-</tspan><tspan
+       sodipodi:role="line"
+       x="40.307102"
+       y="109.56315"
+       id="tspan915">4-</tspan></text>
+</svg>

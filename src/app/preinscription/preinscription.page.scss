@@ -1,0 +1,83 @@
+ion-content {
+    --background: #65bc7b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    ion-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 1000px;
+        position: absolute;
+        left: 12%;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        ion-label {
+            font-family: Century Gothic;
+            font-size: x-large;
+            font-style: Bold;
+            margin-top: 25px;
+            color: gold;
+        }
+
+        ion-grid {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 320px;
+            fieldset {
+                border: 1px solid grey;
+                border-radius: 6px;
+                text-align: left;
+                font-family: Century Gothic;
+                font-size: 15px;
+    
+                ion-input {
+                    height: 1.5rem;
+                    font-family: Century Gothic;
+                    font-size: 13px;
+
+                    &:hover {
+                        color: #000;
+                        font-family: Century Gothic;
+                        font-size: 13px;
+                    }
+                }
+    
+                &:hover {
+                    border: 1px solid #65bc7b;
+                    color: #65bc7b;
+                }
+    
+    
+                legend {
+                    text-align: left;
+                    font-family: Century Gothic;
+                    font-size: 12px;
+    
+                    &:hover {
+                        color: #65bc7b;
+                    }
+                }
+            }
+
+            .error {
+                color: red;
+                font-size: 11px;
+            }
+        }
+
+        ion-button {
+            width: 315px;
+            --background: linear-gradient(180deg, red, #65bc7b);
+            margin-top: 25px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Welcome To ISETAG</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <!-- Page d'accueil -->
+  <ion-card>
+    <!-- cadre des choix  -->
+    <ion-grid fixed>
+      <ion-row>
+        <ion-col size="6">
+          <!-- Preinscription -->
+          <ion-card-content>
+            <ion-label>Welcome dear student to ISETAG</ion-label>
+            <ion-label>Voulez-vous préinscrire au centre de formation ISTEAG</ion-label>
+            <ion-button type="submit">
+              <a [routerLink]="['/preinscription']"> Preinscription </a>
+            </ion-button>
+          </ion-card-content>
+          <!-- Preinscription -->
+        </ion-col>
+        <ion-col size="5">
+          <!-- Inscription -->
+          <ion-card-content>
+            <ion-label>Welcome dear student to ISETAG</ion-label> <br>
+            <ion-label>Voulez-vous inscrire au centre de formation ISTEAG</ion-label>
+            <ion-button type="submit">
+              <a [routerLink]="['/inscription1']"> inscription </a>
+            </ion-button>
+          </ion-card-content>
+          
+          <!-- Inscription -->
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-button type="submit">
+      <a href="https://isetag-univ.net"> See more </a>
+    </ion-button>
+  </ion-card>
+</ion-content>

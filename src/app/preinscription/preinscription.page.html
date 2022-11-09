@@ -1,0 +1,167 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Préinscription</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-label>Preinscrivez-vous !!</ion-label>
+    <ion-card-content>
+      <form [formGroup]="preinscriptionForm" (ngSubmit)="onSubmit()">
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="auto">
+              <fieldset>
+                <legend >Nom</legend>
+                <ion-input type="text" required formControlName="name"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.name.errors?.required">
+                Please enter your name
+              </ion-text>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.name.errors?.minlength">
+                Please your name must have 02 characters
+              </ion-text>
+            </ion-col>
+            <ion-col size="6">
+              <fieldset>
+                <legend >Prenom</legend>
+                <ion-input type="text" required formControlName="surname"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.surname.errors?.required">
+                Please enter your surname
+              </ion-text>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.surname.errors?.minlength">
+                Please your name must have 02 characters
+              </ion-text>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="auto">
+              <fieldset>
+                <legend >Domicile</legend>
+                <ion-input type="text" required formControlName="habit"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.habit.errors?.required">
+                Please enter your residence
+              </ion-text>
+            </ion-col>
+            <ion-col size="3">
+              <fieldset>
+                <legend >Pays d'origine</legend>
+                <ion-input type="text" required formControlName="country"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.country.errors?.required">
+                Please enter your country
+              </ion-text>
+            </ion-col>
+            <ion-col size="3">
+              <fieldset>
+                <legend >Téléphone</legend>
+                <ion-input type="text" required formControlName="number"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.number.errors?.required">
+                Please enter your number
+              </ion-text>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.number.errors?.pattern">
+                Only numerical values allowed
+              </ion-text>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.number.errors?.minlength">
+                Please your number must be min 09 integer
+              </ion-text>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="auto">
+              <fieldset>
+                <legend >Date de naissance</legend>
+                <ion-input type="date" required formControlName="date"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.date.errors?.required">
+                Please enter your date of both
+              </ion-text>
+            </ion-col>
+            <ion-col size="5.9">
+              <fieldset>
+                <legend >Lieu</legend>
+                <ion-input type="text" required formControlName="place"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.place.errors?.required">
+                Please enter the place
+              </ion-text>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="6">
+              <fieldset>
+                <legend >Email</legend>
+                <ion-input type="email" required formControlName="email"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.email.errors?.required">
+                Please enter your email
+              </ion-text>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.email.errors?.pattern">
+                Please enter a valid email
+              </ion-text>
+            </ion-col>
+            <ion-col size="auto">
+              <fieldset>
+                <legend >Password</legend>
+                <ion-input type="password" required formControlName="password"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.password.errors?.required">
+                Please enter your password
+              </ion-text>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.password.errors?.minlength">
+                Please your password must be min 06 characters
+              </ion-text>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="auto">
+              <fieldset>
+                <legend >Ancien établissement</legend>
+                <ion-input type="text" required formControlName="school"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.school.errors?.required">
+                Please enter your old establishment
+              </ion-text>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.school.errors?.minlength">
+                Please your last school must be min 03 characters
+              </ion-text>
+            </ion-col>
+            <ion-col size="2">
+              <fieldset>
+                <legend >Niveau sollicité</legend>
+                <ion-input type="text" required formControlName="degree"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.degree.errors?.required">
+                Please enter your school level
+              </ion-text>
+            </ion-col>
+            <ion-col size="4">
+              <fieldset>
+                <legend >Diplôme donnant accès à la formation</legend>
+                <ion-input type="text" required formControlName="diploma"></ion-input>
+              </fieldset>
+              <ion-text class="error ion-padding" *ngIf="isSubmitted && errorControl.diploma.errors?.required">
+                Please enter your diploma
+              </ion-text>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-button type="submit" >
+          Valider
+        </ion-button>
+      </form>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
